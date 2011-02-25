@@ -27,7 +27,7 @@
    
 }
 - (void)initialize:(UIApplication *)application {
-   NSDictionary *reg;
+   NSDictionary *reg = nil;
    [reg setValue:[NSNumber numberWithBool:false] forKey:@"use_orig_formula"];
    [[NSUserDefaults standardUserDefaults] registerDefaults:reg];
    
