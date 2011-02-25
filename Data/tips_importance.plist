@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Has literally no importance...</string>
+	<string>Not important at all...</string>
+	<string>Very little importance...</string>
+	<string>Has some importance...</string>
+	<string>Is important.</string>
+	<string>Is very important.</string>
+	<string>Life threatening!</string>
+</array>
+</plist>

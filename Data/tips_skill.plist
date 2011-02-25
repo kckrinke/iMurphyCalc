@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>You have no skills that even relate to this in the least...</string>
+	<string>You have some skills that relate to this, but not this specifically...</string>
+	<string>You have skills that directly relate to this and have done this at least once before...</string>
+	<string>You&apos;ve done this a few times in your past...</string>
+	<string>You can do this</string>
+	<string>You&apos;ve brought this down to a science</string>
+	<string>You&apos;ve turned this into art</string>
+	<string>You&apos;ve mastered the art</string>
+	<string>You have flawless talent</string>
+</array>
+</plist>

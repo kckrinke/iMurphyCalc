@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>This is as straight forward as it gets...</string>
+	<string>Partial thought required...</string>
+	<string>Some thought required but only for safety purposes...</string>
+	<string>Not quite advanced math but getting complicated...</string>
+	<string>It&apos;s complicated</string>
+	<string>So complicated, it&apos;s a science...</string>
+	<string>So complicated, it&apos;s not even science; it&apos;s art!</string>
+	<string>Only masters of the art have the confidence required...</string>
+	<string>So complex, even masters of the art think twice before proceeding...</string>
+</array>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Once every couple of years...</string>
+	<string>Once a year or so...</string>
+	<string>A couple times a year...</string>
+	<string>Once every couple months...</string>
+	<string>Once a month...</string>
+	<string>Once every couple weeks...</string>
+	<string>Once a week...</string>
+	<string>Couple times a week...</string>
+	<string>Every day...</string>
+	<string>Couple times a day...</string>
+	<string>Every few hours...</string>
+	<string>Every hour...</string>
+	<string>So frequently, you time it by the beating of your own heart...</string>
+</array>
+</plist>

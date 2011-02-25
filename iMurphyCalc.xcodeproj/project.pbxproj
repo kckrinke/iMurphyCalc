@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iMurphyCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iMurphyCalcAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		280E754D0DD40C5E005A515E /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* AboutView.xib */; };
+		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
+		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
+		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
+		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
+		289233B00DB2D0DB0083E9F9 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* AboutViewController.m */; };
+		BD47E93213064AAB0030D576 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD47E93113064AAB0030D576 /* Settings.bundle */; };
+		BD4B81C112FBEB11008715CE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD4B81C012FBEB11008715CE /* icon.png */; };
+		BDB03BBD12FCCF5B0060612A /* bg-640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03BBC12FCCF5B0060612A /* bg-640x960.png */; };
+		BDB03BBF12FCD1260060612A /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03BBE12FCD1260060612A /* help.png */; };
+		BDB03BC912FCD2220060612A /* HelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDB03BC812FCD2220060612A /* HelpView.xib */; };
+		BDB03BD512FCD2E60060612A /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB03BD412FCD2E60060612A /* HelpViewController.m */; };
+		BDB03BDE12FCD6F60060612A /* return.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03BDD12FCD6F60060612A /* return.png */; };
+		BDB03C6012FCE8E70060612A /* tips_urgency.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C5F12FCE8E70060612A /* tips_urgency.plist */; };
+		BDB03C6612FCEC9F0060612A /* tips_complexity.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C6212FCEC9F0060612A /* tips_complexity.plist */; };
+		BDB03C6712FCEC9F0060612A /* tips_frequency.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C6312FCEC9F0060612A /* tips_frequency.plist */; };
+		BDB03C6812FCEC9F0060612A /* tips_importance.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C6412FCEC9F0060612A /* tips_importance.plist */; };
+		BDB03C6912FCEC9F0060612A /* tips_skill.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C6512FCEC9F0060612A /* tips_skill.plist */; };
+		BDB03C8F12FF6A330060612A /* suggestion.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C8E12FF6A330060612A /* suggestion.plist */; };
+		BDB03C9A12FF766A0060612A /* therm-01.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C9212FF766A0060612A /* therm-01.png */; };
+		BDB03C9B12FF766A0060612A /* therm-02.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C9312FF766A0060612A /* therm-02.png */; };
+		BDB03C9C12FF766A0060612A /* therm-03.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C9412FF766A0060612A /* therm-03.png */; };
+		BDB03C9D12FF766A0060612A /* therm-04.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C9512FF766A0060612A /* therm-04.png */; };
+		BDB03C9E12FF766A0060612A /* therm-05.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C9612FF766A0060612A /* therm-05.png */; };
+		BDB03C9F12FF766A0060612A /* therm-06.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C9712FF766A0060612A /* therm-06.png */; };
+		BDB03CA012FF766A0060612A /* therm-07.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C9812FF766A0060612A /* therm-07.png */; };
+		BDB03CA112FF766A0060612A /* therm-08.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C9912FF766A0060612A /* therm-08.png */; };
+		BDB03D0912FFC6570060612A /* therm_img.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB03D0812FFC6570060612A /* therm_img.plist */; };
+		BDC2D55B1301017E000B951F /* sodmath.c in Sources */ = {isa = PBXBuildFile; fileRef = BDC2D55A1301017E000B951F /* sodmath.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iMurphyCalcAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMurphyCalcAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iMurphyCalcAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMurphyCalcAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iMurphyCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMurphyCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280E754A0DD40C5E005A515E /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutView.xib; path = Nibs/AboutView.xib; sourceTree = "<group>"; };
+		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainView.xib; path = Nibs/MainView.xib; sourceTree = "<group>"; };
+		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Nibs/MainWindow.xib; sourceTree = "<group>"; };
+		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Sources/MainViewController.h; sourceTree = "<group>"; };
+		289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Sources/MainViewController.m; sourceTree = "<group>"; };
+		289233AC0DB2D0DB0083E9F9 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = Sources/AboutViewController.h; sourceTree = "<group>"; };
+		289233AD0DB2D0DB0083E9F9 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = Sources/AboutViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iMurphyCalc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMurphyCalc_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iMurphyCalc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iMurphyCalc-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BD47E93113064AAB0030D576 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		BD4B81C012FBEB11008715CE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BDB03BBC12FCCF5B0060612A /* bg-640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-640x960.png"; path = "Artwork/bg-640x960.png"; sourceTree = "<group>"; };
+		BDB03BBE12FCD1260060612A /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = Artwork/help.png; sourceTree = "<group>"; };
+		BDB03BC812FCD2220060612A /* HelpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HelpView.xib; path = Nibs/HelpView.xib; sourceTree = "<group>"; };
+		BDB03BD312FCD2E60060612A /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpViewController.h; path = Sources/HelpViewController.h; sourceTree = "<group>"; };
+		BDB03BD412FCD2E60060612A /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpViewController.m; path = Sources/HelpViewController.m; sourceTree = "<group>"; };
+		BDB03BDD12FCD6F60060612A /* return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = return.png; path = Artwork/return.png; sourceTree = "<group>"; };
+		BDB03C5F12FCE8E70060612A /* tips_urgency.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = tips_urgency.plist; path = Data/tips_urgency.plist; sourceTree = "<group>"; };
+		BDB03C6212FCEC9F0060612A /* tips_complexity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = tips_complexity.plist; path = Data/tips_complexity.plist; sourceTree = "<group>"; };
+		BDB03C6312FCEC9F0060612A /* tips_frequency.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = tips_frequency.plist; path = Data/tips_frequency.plist; sourceTree = "<group>"; };
+		BDB03C6412FCEC9F0060612A /* tips_importance.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = tips_importance.plist; path = Data/tips_importance.plist; sourceTree = "<group>"; };
+		BDB03C6512FCEC9F0060612A /* tips_skill.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = tips_skill.plist; path = Data/tips_skill.plist; sourceTree = "<group>"; };
+		BDB03C8E12FF6A330060612A /* suggestion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = suggestion.plist; path = Data/suggestion.plist; sourceTree = "<group>"; };
+		BDB03C9212FF766A0060612A /* therm-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "therm-01.png"; path = "Artwork/therm-01.png"; sourceTree = "<group>"; };
+		BDB03C9312FF766A0060612A /* therm-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "therm-02.png"; path = "Artwork/therm-02.png"; sourceTree = "<group>"; };
+		BDB03C9412FF766A0060612A /* therm-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "therm-03.png"; path = "Artwork/therm-03.png"; sourceTree = "<group>"; };
+		BDB03C9512FF766A0060612A /* therm-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "therm-04.png"; path = "Artwork/therm-04.png"; sourceTree = "<group>"; };
+		BDB03C9612FF766A0060612A /* therm-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "therm-05.png"; path = "Artwork/therm-05.png"; sourceTree = "<group>"; };
+		BDB03C9712FF766A0060612A /* therm-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "therm-06.png"; path = "Artwork/therm-06.png"; sourceTree = "<group>"; };
+		BDB03C9812FF766A0060612A /* therm-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "therm-07.png"; path = "Artwork/therm-07.png"; sourceTree = "<group>"; };
+		BDB03C9912FF766A0060612A /* therm-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "therm-08.png"; path = "Artwork/therm-08.png"; sourceTree = "<group>"; };
+		BDB03D0812FFC6570060612A /* therm_img.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = therm_img.plist; path = Data/therm_img.plist; sourceTree = "<group>"; };
+		BDC2D5591301017E000B951F /* sodmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sodmath.h; path = Sources/sodmath.h; sourceTree = "<group>"; };
+		BDC2D55A1301017E000B951F /* sodmath.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sodmath.c; path = Sources/sodmath.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iMurphyCalcAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iMurphyCalcAppDelegate.m */,
+			);
+			name = "Application Delegate";
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iMurphyCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281C6CD70DB2D82200F60ACC /* About View */ = {
+			isa = PBXGroup;
+			children = (
+				289233AC0DB2D0DB0083E9F9 /* AboutViewController.h */,
+				289233AD0DB2D0DB0083E9F9 /* AboutViewController.m */,
+			);
+			name = "About View";
+			sourceTree = "<group>";
+		};
+		289233A00DB2D0730083E9F9 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				289233A80DB2D0DB0083E9F9 /* MainViewController.h */,
+				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				BD47E93113064AAB0030D576 /* Settings.bundle */,
+				BDA2D79D13024D7800D1B650 /* Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iMurphyCalc_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2D79E13024DB500D1B650 /* nibs */,
+				BDB03C6112FCEC870060612A /* data */,
+				BDB03BDF12FCD7B80060612A /* artwork */,
+				8D1107310486CEB800E47090 /* iMurphyCalc-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765580DF743DE002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDA2D79D13024D7800D1B650 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BDC2D55513010147000B951F /* Common */,
+				289233A00DB2D0730083E9F9 /* Main View */,
+				281C6CD70DB2D82200F60ACC /* About View */,
+				BDB03BD212FCD2D10060612A /* Help View */,
+				080E96DDFE201D6D7F000001 /* Application Delegate */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		BDA2D79E13024DB500D1B650 /* nibs */ = {
+			isa = PBXGroup;
+			children = (
+				280E754A0DD40C5E005A515E /* AboutView.xib */,
+				BDB03BC812FCD2220060612A /* HelpView.xib */,
+				280E754B0DD40C5E005A515E /* MainView.xib */,
+				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+			);
+			name = nibs;
+			sourceTree = "<group>";
+		};
+		BDB03BD212FCD2D10060612A /* Help View */ = {
+			isa = PBXGroup;
+			children = (
+				BDB03BD312FCD2E60060612A /* HelpViewController.h */,
+				BDB03BD412FCD2E60060612A /* HelpViewController.m */,
+			);
+			name = "Help View";
+			sourceTree = "<group>";
+		};
+		BDB03BDF12FCD7B80060612A /* artwork */ = {
+			isa = PBXGroup;
+			children = (
+				BDB03C9112FF765C0060612A /* therm */,
+				BDB03BDD12FCD6F60060612A /* return.png */,
+				BDB03BBE12FCD1260060612A /* help.png */,
+				BDB03BBC12FCCF5B0060612A /* bg-640x960.png */,
+				BD4B81C012FBEB11008715CE /* icon.png */,
+			);
+			name = artwork;
+			sourceTree = "<group>";
+		};
+		BDB03C6112FCEC870060612A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				BDB03C5F12FCE8E70060612A /* tips_urgency.plist */,
+				BDB03C6212FCEC9F0060612A /* tips_complexity.plist */,
+				BDB03C6412FCEC9F0060612A /* tips_importance.plist */,
+				BDB03C6512FCEC9F0060612A /* tips_skill.plist */,
+				BDB03C6312FCEC9F0060612A /* tips_frequency.plist */,
+				BDB03C8E12FF6A330060612A /* suggestion.plist */,
+				BDB03D0812FFC6570060612A /* therm_img.plist */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		BDB03C9112FF765C0060612A /* therm */ = {
+			isa = PBXGroup;
+			children = (
+				BDB03C9212FF766A0060612A /* therm-01.png */,
+				BDB03C9312FF766A0060612A /* therm-02.png */,
+				BDB03C9412FF766A0060612A /* therm-03.png */,
+				BDB03C9512FF766A0060612A /* therm-04.png */,
+				BDB03C9612FF766A0060612A /* therm-05.png */,
+				BDB03C9712FF766A0060612A /* therm-06.png */,
+				BDB03C9812FF766A0060612A /* therm-07.png */,
+				BDB03C9912FF766A0060612A /* therm-08.png */,
+			);
+			name = therm;
+			sourceTree = "<group>";
+		};
+		BDC2D55513010147000B951F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BDC2D5591301017E000B951F /* sodmath.h */,
+				BDC2D55A1301017E000B951F /* sodmath.c */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iMurphyCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iMurphyCalc" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMurphyCalc;
+			productName = iMurphyCalc;
+			productReference = 1D6058910D05DD3D006BFB54 /* iMurphyCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Kevin C. Krinke";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iMurphyCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iMurphyCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E754D0DD40C5E005A515E /* AboutView.xib in Resources */,
+				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
+				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
+				BD4B81C112FBEB11008715CE /* icon.png in Resources */,
+				BDB03BBD12FCCF5B0060612A /* bg-640x960.png in Resources */,
+				BDB03BBF12FCD1260060612A /* help.png in Resources */,
+				BDB03BC912FCD2220060612A /* HelpView.xib in Resources */,
+				BDB03BDE12FCD6F60060612A /* return.png in Resources */,
+				BDB03C6012FCE8E70060612A /* tips_urgency.plist in Resources */,
+				BDB03C6612FCEC9F0060612A /* tips_complexity.plist in Resources */,
+				BDB03C6712FCEC9F0060612A /* tips_frequency.plist in Resources */,
+				BDB03C6812FCEC9F0060612A /* tips_importance.plist in Resources */,
+				BDB03C6912FCEC9F0060612A /* tips_skill.plist in Resources */,
+				BDB03C8F12FF6A330060612A /* suggestion.plist in Resources */,
+				BDB03C9A12FF766A0060612A /* therm-01.png in Resources */,
+				BDB03C9B12FF766A0060612A /* therm-02.png in Resources */,
+				BDB03C9C12FF766A0060612A /* therm-03.png in Resources */,
+				BDB03C9D12FF766A0060612A /* therm-04.png in Resources */,
+				BDB03C9E12FF766A0060612A /* therm-05.png in Resources */,
+				BDB03C9F12FF766A0060612A /* therm-06.png in Resources */,
+				BDB03CA012FF766A0060612A /* therm-07.png in Resources */,
+				BDB03CA112FF766A0060612A /* therm-08.png in Resources */,
+				BDB03D0912FFC6570060612A /* therm_img.plist in Resources */,
+				BD47E93213064AAB0030D576 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iMurphyCalcAppDelegate.m in Sources */,
+				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
+				289233B00DB2D0DB0083E9F9 /* AboutViewController.m in Sources */,
+				BDB03BD512FCD2E60060612A /* HelpViewController.m in Sources */,
+				BDC2D55B1301017E000B951F /* sodmath.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iMurphyCalc_Prefix.pch;
+				INFOPLIST_FILE = "iMurphyCalc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = iMurphyCalc;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iMurphyCalc_Prefix.pch;
+				INFOPLIST_FILE = "iMurphyCalc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = iMurphyCalc;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD47EA5E1306753A0030D576 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kevin Krinke";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "200D5090-EDB9-4666-B712-9334D3BE63A1";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		BD47EA5F1306753A0030D576 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iMurphyCalc_Prefix.pch;
+				INFOPLIST_FILE = "iMurphyCalc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = iMurphyCalc;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kevin Krinke (2L3CLV2BN4)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AF5E94A6-A8C0-4A6E-A6EC-6D01F45DE25C";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kevin Krinke (2L3CLV2BN4)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AF5E94A6-A8C0-4A6E-A6EC-6D01F45DE25C";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iMurphyCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				BD47EA5F1306753A0030D576 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iMurphyCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				BD47EA5E1306753A0030D576 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

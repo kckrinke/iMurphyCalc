@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>It doesn&apos;t matter if it&apos;s this year or the next but it does need to happen...</string>
+	<string>Sometime this year...</string>
+	<string>Sometime in the next few months...</string>
+	<string>Sometime in the next few weeks...</string>
+	<string>Sometime in the next few days...</string>
+	<string>Sometime today...</string>
+	<string>Sometime in the next few hours...</string>
+	<string>Sometime in the next few minutes...</string>
+	<string>It should have been done YESTERDAY!</string>
+</array>
+</plist>

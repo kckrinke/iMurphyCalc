@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>You&apos;re good to go!</string>
+	<string>Proceed with some caution...</string>
+	<string>Proceed with caution...</string>
+	<string>You should consider finding help...</string>
+	<string>You should consider not doing this at all without help...</string>
+	<string>For your own safety, don&apos;t do this alone!</string>
+	<string>There has to be someone better suited for this!</string>
+	<string>Anything that can go wrong will more than likely go wrong!</string>
+	<string>EVERYTHING will go wrong!</string>
+	<string>EVERYTHING WILL GO WRONG! DON&apos;T DO IT!</string>
+</array>
+</plist>
