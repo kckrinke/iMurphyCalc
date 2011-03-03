@@ -22,6 +22,7 @@
  */
 @property (nonatomic, assign) id <AboutViewControllerDelegate> delegate;
 - (IBAction)done:(id)sender;
+- (IBAction)visit_website:(id)sender;
 @end
 
 /** Define the delegate protocol for the about view.

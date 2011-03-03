@@ -30,7 +30,7 @@
    NSDictionary *reg = nil;
    [reg setValue:[NSNumber numberWithBool:false] forKey:@"use_orig_formula"];
    [[NSUserDefaults standardUserDefaults] registerDefaults:reg];
-   
+   [application setStatusBarHidden:true];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
@@ -39,9 +39,9 @@
     // Add the main view controller's view to the window and display.
     [self.window addSubview:mainViewController.view];
     [self.window makeKeyAndVisible];
-   [application setStatusBarHidden:true];
-   [mainViewController set_use_orig_formula:[[NSUserDefaults standardUserDefaults] boolForKey:@"use_orig_formula"]];
-   [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(settingsChanged:) name:NSUserDefaultsDidChangeNotification object:nil];
+    [application setStatusBarHidden:true];
+    [mainViewController set_use_orig_formula:[[NSUserDefaults standardUserDefaults] boolForKey:@"use_orig_formula"]];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(settingsChanged:) name:NSUserDefaultsDidChangeNotification object:nil];
     return YES;
 }
 

@@ -19,6 +19,8 @@
 		289233B00DB2D0DB0083E9F9 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* AboutViewController.m */; };
 		BD47E93213064AAB0030D576 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD47E93113064AAB0030D576 /* Settings.bundle */; };
 		BD4B81C112FBEB11008715CE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD4B81C012FBEB11008715CE /* icon.png */; };
+		BD6BF958131FFA4D0061BC98 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6BF957131FFA4D0061BC98 /* Default.png */; };
+		BD6BF95A131FFA5D0061BC98 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6BF959131FFA5D0061BC98 /* Default@2x.png */; };
 		BDAF91E41317722100B765CE /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = BDAF91E31317722100B765CE /* info.png */; };
 		BDB03BBD12FCCF5B0060612A /* bg-640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03BBC12FCCF5B0060612A /* bg-640x960.png */; };
 		BDB03BBF12FCD1260060612A /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03BBE12FCD1260060612A /* help.png */; };
@@ -62,6 +64,8 @@
 		8D1107310486CEB800E47090 /* iMurphyCalc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iMurphyCalc-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		BD47E93113064AAB0030D576 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		BD4B81C012FBEB11008715CE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BD6BF957131FFA4D0061BC98 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BD6BF959131FFA5D0061BC98 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BDAF91E31317722100B765CE /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = Artwork/info.png; sourceTree = "<group>"; };
 		BDB03BBC12FCCF5B0060612A /* bg-640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-640x960.png"; path = "Artwork/bg-640x960.png"; sourceTree = "<group>"; };
 		BDB03BBE12FCD1260060612A /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = Artwork/help.png; sourceTree = "<group>"; };
@@ -216,6 +220,8 @@
 		BDB03BDF12FCD7B80060612A /* artwork */ = {
 			isa = PBXGroup;
 			children = (
+				BD6BF959131FFA5D0061BC98 /* Default@2x.png */,
+				BD6BF957131FFA4D0061BC98 /* Default.png */,
 				BDAF91E31317722100B765CE /* info.png */,
 				BDB03C9112FF765C0060612A /* therm */,
 				BDB03BDD12FCD6F60060612A /* return.png */,
@@ -342,6 +348,8 @@
 				BDB03D0912FFC6570060612A /* therm_img.plist in Resources */,
 				BD47E93213064AAB0030D576 /* Settings.bundle in Resources */,
 				BDAF91E41317722100B765CE /* info.png in Resources */,
+				BD6BF958131FFA4D0061BC98 /* Default.png in Resources */,
+				BD6BF95A131FFA5D0061BC98 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +414,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "200D5090-EDB9-4666-B712-9334D3BE63A1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "956C936A-DC8A-4201-B27A-E23E7E0D1D16";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -436,7 +444,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AF5E94A6-A8C0-4A6E-A6EC-6D01F45DE25C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A2F4D899-C4FB-4E40-B8B7-44D06BA25DEE";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -452,7 +460,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AF5E94A6-A8C0-4A6E-A6EC-6D01F45DE25C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A2F4D899-C4FB-4E40-B8B7-44D06BA25DEE";
 				SDKROOT = iphoneos;
 			};
 			name = Release;

@@ -23,6 +23,10 @@
 	[self.delegate aboutViewControllerDidFinish:self];	
 }
 
+- (IBAction)visit_website:(id)sender {
+   [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://kevin.c.krinke.ca/code/imurphycalc"]];
+}
+
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
