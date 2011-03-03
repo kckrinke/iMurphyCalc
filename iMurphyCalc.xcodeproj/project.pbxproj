@@ -295,9 +295,6 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			attributes = {
-				ORGANIZATIONNAME = "Kevin C. Krinke";
-			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iMurphyCalc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -414,8 +411,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "956C936A-DC8A-4201-B27A-E23E7E0D1D16";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B3492EB9-0D45-476B-99B1-6122115B3C0F";
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
 		};
@@ -444,8 +442,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A2F4D899-C4FB-4E40-B8B7-44D06BA25DEE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "519F6E87-84ED-4660-B8CB-BA8AEEBF2936";
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -460,8 +459,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A2F4D899-C4FB-4E40-B8B7-44D06BA25DEE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "519F6E87-84ED-4660-B8CB-BA8AEEBF2936";
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
