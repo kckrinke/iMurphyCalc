@@ -3,7 +3,7 @@
 //  iMurphyCalc
 //
 //  Created by Kevin C. Krinke on 11-02-03.
-//  Copyright 2011 Layonara Studios LLC. All rights reserved.
+//  Copyright 2011 Kevin C. Krinke. All rights reserved.
 //
 
 #import "HelpViewController.h"

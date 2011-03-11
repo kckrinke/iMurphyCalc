@@ -24,7 +24,14 @@
    float importance; ///< stores the currently set importance
    float skill; ///< stores the currently set skill level
    float frequency; ///< stores the currently set frequency
-   int use_orig_formula;
+    int use_orig_formula;
+    NSMutableArray *plist_therm_img;
+    NSMutableArray *plist_suggestion;
+    NSMutableArray *plist_tips_urgency;
+    NSMutableArray *plist_tips_complexity;
+    NSMutableArray *plist_tips_importance;
+    NSMutableArray *plist_tips_skill;
+    NSMutableArray *plist_tips_frequency;
 }
 
 @property (nonatomic, retain) UILabel *formula_label;
@@ -38,6 +45,15 @@
 @property (nonatomic) float skill;
 @property (nonatomic) float frequency;
 @property (nonatomic) int use_orig_formula;
+@property (nonatomic, retain) NSMutableArray *plist_therm_img;
+@property (nonatomic, retain) NSMutableArray *plist_suggestion;
+@property (nonatomic, retain) NSMutableArray *plist_tips_urgency;
+@property (nonatomic, retain) NSMutableArray *plist_tips_complexity;
+@property (nonatomic, retain) NSMutableArray *plist_tips_importance;
+@property (nonatomic, retain) NSMutableArray *plist_tips_skill;
+@property (nonatomic, retain) NSMutableArray *plist_tips_frequency;
+
+- (void)loadAllPlistData;
 
 /** Method to show the help view.
  */
@@ -58,15 +74,6 @@
 /** Helper method that performs the Sod's Law calculation.
  */
 - (float)calculate_sod_factor;
-
-/** Helper method that abstracts the process of displaying the per-slider tips.
- */
-- (void)set_tips_label_text:(NSString *)plist_name:(float)slider_value;
-
-/** Helper method that determins which indice of an array to use based on the
- Sod's Law calculated result.
- */
-- (NSString*)get_indice_by_result:(NSString*)plist_name:(float)result;
 
 /** Method that updates all of the UI elements after re-calculating the current
  Sod's Law value

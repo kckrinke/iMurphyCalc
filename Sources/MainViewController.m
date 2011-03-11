@@ -21,7 +21,13 @@
 @synthesize skill;
 @synthesize frequency;
 @synthesize use_orig_formula;
-
+@synthesize plist_therm_img;
+@synthesize plist_suggestion;
+@synthesize plist_tips_urgency;
+@synthesize plist_tips_complexity;
+@synthesize plist_tips_importance;
+@synthesize plist_tips_skill;
+@synthesize plist_tips_frequency;
 
 - (float)calculate_sod_factor {
    if (self.use_orig_formula == 1)
@@ -37,61 +43,63 @@
    return calculate_sod_factor_alt(self.urgency,self.complexity,self.importance,self.skill,self.frequency);
 }
 
-
-- (NSString*)get_indice_by_result:(NSString*)plist_name:(float)result {
-   NSString *path = [[NSBundle mainBundle] pathForResource:plist_name ofType:@"plist"];
-   NSMutableArray *plist_data = [[NSMutableArray alloc] initWithContentsOfFile:path];
-   int idx = array_index_by_custom_perc(result,0.0f,1.0f,plist_data.count);
-   return [plist_data objectAtIndex:idx];
+- (void)loadAllPlistData {
+    self.plist_therm_img = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"therm_img" ofType:@"plist"]];
+    self.plist_suggestion = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"suggestion" ofType:@"plist"]];
+    self.plist_tips_urgency = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"tips_urgency" ofType:@"plist"]];
+    self.plist_tips_complexity = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"tips_complexity" ofType:@"plist"]];
+    self.plist_tips_importance = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"tips_importance" ofType:@"plist"]];
+    self.plist_tips_skill = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"tips_skill" ofType:@"plist"]];
+    self.plist_tips_frequency = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"tips_frequency" ofType:@"plist"]];
 }
 
 - (void)update_results {
-   float result = [self calculate_sod_factor];
-   NSString *img = [self get_indice_by_result:@"therm_img":result];
-   [self.therm_image setImage:[UIImage imageNamed:img]];
-   NSString *txt = [self get_indice_by_result:@"suggestion":result];
-   self.suggest_label.text = txt;
+    float result = [self calculate_sod_factor];
+    
+    int idx = array_index_by_custom_perc(result, 0.0f, 1.0f, self.plist_therm_img.count);
+    [self.therm_image setImage:[UIImage imageNamed:[self.plist_therm_img objectAtIndex:idx]]];
+    
+    idx = array_index_by_custom_perc(result, 0.0f, 1.0f, self.plist_suggestion.count);
+    self.suggest_label.text = [self.plist_suggestion objectAtIndex:idx];
+    
    int percentage = mClampI((int)(result * 100),0,100);
-   NSString *text = [[NSString alloc] initWithFormat:@"%d%%",percentage];
-   self.result_label.text = text;
+   self.result_label.text = [NSString stringWithFormat:@"%d%%", percentage];
 }
 
 - (IBAction)reset_tips_label:(id)sender {
    self.tips_label.text = @"";
 }
 
-- (void)set_tips_label_text:(NSString*)plist_name:(float)slider_value {
-   NSString *path = [[NSBundle mainBundle] pathForResource:plist_name ofType:@"plist"];
-   NSMutableArray *tips = [[NSMutableArray alloc] initWithContentsOfFile:path];
-   int idx = array_index_by_custom_perc(slider_value,1.0f,9.0f,tips.count);
-   self.tips_label.text = [tips objectAtIndex:idx];
-}
-
 - (IBAction)update_labels:(id)sender {
    UISlider *slider = (UISlider *)sender;
    switch (slider.tag) {
       case 100: {
-         [self set_tips_label_text:@"tips_urgency":slider.value];
+          int idx = array_index_by_custom_perc(slider.value, 1.0f, 9.0f, self.plist_tips_urgency.count);
+          self.tips_label.text = [self.plist_tips_urgency objectAtIndex:idx];
          self.urgency = slider.value;
          break;
       }
       case 200: {
-         [self set_tips_label_text:@"tips_complexity":slider.value];
+          int idx = array_index_by_custom_perc(slider.value, 1.0f, 9.0f, self.plist_tips_complexity.count);
+          self.tips_label.text = [self.plist_tips_complexity objectAtIndex:idx];
          self.complexity = slider.value;
          break;
       }
       case 300: {
-         [self set_tips_label_text:@"tips_importance":slider.value];
+          int idx = array_index_by_custom_perc(slider.value, 1.0f, 9.0f, self.plist_tips_importance.count);
+          self.tips_label.text = [self.plist_tips_importance objectAtIndex:idx];
          self.importance = slider.value;
          break;
       }
       case 400: {
-         [self set_tips_label_text:@"tips_skill":slider.value];
+          int idx = array_index_by_custom_perc(slider.value, 1.0f, 9.0f, self.plist_tips_skill.count);
+          self.tips_label.text = [self.plist_tips_skill objectAtIndex:idx];
          self.skill = slider.value;
          break;
       }
       case 500: {
-         [self set_tips_label_text:@"tips_frequency":slider.value];
+          int idx = array_index_by_custom_perc(slider.value, 1.0f, 9.0f, self.plist_tips_frequency.count);
+          self.tips_label.text = [self.plist_tips_frequency objectAtIndex:idx];
          self.frequency = slider.value;
          break;
       }
@@ -153,6 +161,7 @@
 }
 
 - (void)viewDidLoad {
+    [self loadAllPlistData];
    self.formula_label.text = @"";
    self.result_label.text = @"";
    self.tips_label.text = @"";
@@ -179,6 +188,13 @@
 
 
 - (void)dealloc {
+    [self.plist_therm_img release];
+    [self.plist_suggestion release];
+    [self.plist_tips_urgency release];
+    [self.plist_tips_complexity release];
+    [self.plist_tips_importance release];
+    [self.plist_tips_skill release];
+    [self.plist_tips_frequency release];
     [super dealloc];
 }
 
