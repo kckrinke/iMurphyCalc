@@ -268,6 +268,7 @@
 				BD85301E133441EA00ECA794 /* icon-57x57.png */,
 				BD6BF959131FFA5D0061BC98 /* Default@2x.png */,
 				BD6BF957131FFA4D0061BC98 /* Default.png */,
+				BD1E0EEA132F4D2700D65AD7 /* Default-Portrait~ipad.png */,
 				BDAF91E31317722100B765CE /* info.png */,
 				BDB03BDD12FCD6F60060612A /* return.png */,
 				BDB03BBE12FCD1260060612A /* help.png */,
@@ -280,7 +281,6 @@
 		BDB03C6112FCEC870060612A /* data */ = {
 			isa = PBXGroup;
 			children = (
-				BD1E0EEA132F4D2700D65AD7 /* Default-Portrait~ipad.png */,
 				BDB03C5F12FCE8E70060612A /* tips_urgency.plist */,
 				BDB03C6212FCEC9F0060612A /* tips_complexity.plist */,
 				BDB03C6412FCEC9F0060612A /* tips_importance.plist */,
@@ -310,12 +310,12 @@
 		BDC2D55513010147000B951F /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				BDF49F0813821FD700B14753 /* SettingsMonitor.h */,
-				BDF49F0913821FD700B14753 /* SettingsMonitor.m */,
 				BDC2D5591301017E000B951F /* sodmath.h */,
 				BDC2D55A1301017E000B951F /* sodmath.c */,
 				BD3926D7132C4E790004CC90 /* Config.h */,
 				BD3926D8132C4F9C0004CC90 /* Config.m */,
+				BDF49F0813821FD700B14753 /* SettingsMonitor.h */,
+				BDF49F0913821FD700B14753 /* SettingsMonitor.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";

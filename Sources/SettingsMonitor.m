@@ -22,7 +22,7 @@
         if (![cur_string isEqualToString:APP_VERSION])
         {
             [defaults setValue:APP_VERSION forKey:@"app_version"];
-            NSLog(@"Changed version in settings bundle: %@ -> %@",cur_string,APP_VERSION);
+//            NSLog(@"Changed version in settings bundle: %@ -> %@",cur_string,APP_VERSION);
         }
         [self setDelegate:dlgt];
     }
