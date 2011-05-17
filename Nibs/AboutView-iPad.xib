@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1056</int>
-		<string key="IBDocument.SystemVersion">10J567</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1305</string>
+		<string key="IBDocument.SystemVersion">10J869</string>
+		<string key="IBDocument.InterfaceBuilderVersion">1306</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
-		<string key="IBDocument.HIToolboxVersion">462.00</string>
+		<string key="IBDocument.HIToolboxVersion">461.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">300</string>
+			<string key="NS.object.0">301</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>IBUITextView</string>
@@ -129,7 +129,6 @@ aWNhdGlvbiBpcyBwcm92aWRlZCBzdHJpY3RseSBmb3IgZW50ZXJ0YWlubWVudCBwdXJwb3Nlcy4</str
 						<string key="NSFrame">{{647, 891}, {64, 64}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
@@ -202,6 +201,40 @@ aWNhdGlvbiBpcyBwcm92aWRlZCBzdHJpY3RseSBmb3IgZW50ZXJ0YWlubWVudCBwdXJwb3Nlcy4</str
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="53748069"/>
 					</object>
+					<object class="IBUILabel" id="750485471">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{208, 893}, {431, 47}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<int key="IBUIContentMode">7</int>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<string key="IBUIText">Application Author: Kevin C. Krinke</string>
+						<object class="NSFont" key="IBUIFont">
+							<string key="NSName">Helvetica</string>
+							<double key="NSSize">14</double>
+							<int key="NSfFlags">16</int>
+						</object>
+						<object class="NSColor" key="IBUITextColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MSAxIDEAA</bytes>
+							<object class="NSColorSpace" key="NSCustomColorSpace">
+								<int key="NSID">1</int>
+							</object>
+						</object>
+						<nil key="IBUIHighlightedColor"/>
+						<object class="NSColor" key="IBUIShadowColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MCAwIDAAA</bytes>
+						</object>
+						<int key="IBUIBaselineAdjustment">1</int>
+						<float key="IBUIMinimumFontSize">10</float>
+						<int key="IBUINumberOfLines">2</int>
+						<int key="IBUITextAlignment">1</int>
+					</object>
 				</array>
 				<string key="NSFrameSize">{768, 1004}</string>
 				<reference key="NSSuperview"/>
@@ -262,6 +295,7 @@ aWNhdGlvbiBpcyBwcm92aWRlZCBzdHJpY3RseSBmb3IgZW50ZXJ0YWlubWVudCBwdXJwb3Nlcy4</str
 							<reference ref="585809158"/>
 							<reference ref="828292743"/>
 							<reference ref="185871080"/>
+							<reference ref="750485471"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -306,6 +340,11 @@ aWNhdGlvbiBpcyBwcm92aWRlZCBzdHJpY3RseSBmb3IgZW50ZXJ0YWlubWVudCBwdXJwb3Nlcy4</str
 						<reference key="object" ref="585809158"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">13</int>
+						<reference key="object" ref="750485471"/>
+						<reference key="parent" ref="191373211"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -313,6 +352,7 @@ aWNhdGlvbiBpcyBwcm92aWRlZCBzdHJpY3RseSBmb3IgZW50ZXJ0YWlubWVudCBwdXJwb3Nlcy4</str
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="1.IBEditorWindowLastContentRect">{{514, 109}, {768, 1024}}</string>
 				<string key="1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="13.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<object class="NSAffineTransform" key="4.IBViewBoundsToFrameTransform">
 					<bytes key="NSTransformStruct">P4AAAL+AAABAoAAAw6OAAA</bytes>
@@ -339,7 +379,7 @@ aWNhdGlvbiBpcyBwcm92aWRlZCBzdHJpY3RseSBmb3IgZW50ZXJ0YWlubWVudCBwdXJwb3Nlcy4</str
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">12</int>
+			<int key="maxID">13</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -379,6 +419,6 @@ aWNhdGlvbiBpcyBwcm92aWRlZCBzdHJpY3RseSBmb3IgZW50ZXJ0YWlubWVudCBwdXJwb3Nlcy4</str
 			<string key="bg-640x960.png">{640, 960}</string>
 			<string key="return.png">{512, 512}</string>
 		</dictionary>
-		<string key="IBCocoaTouchPluginVersion">300</string>
+		<string key="IBCocoaTouchPluginVersion">301</string>
 	</data>
 </archive>

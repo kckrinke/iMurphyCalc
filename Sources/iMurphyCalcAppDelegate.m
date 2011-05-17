@@ -8,40 +8,42 @@
 
 #import "iMurphyCalcAppDelegate.h"
 #import "MainViewController.h"
+#import "Config.h"
 
 @implementation iMurphyCalcAppDelegate
 
-
 @synthesize window;
 @synthesize mainViewController;
+@synthesize settingsMonitor;
 
+#pragma mark - Application lifecycle
 
-#pragma mark -
-#pragma mark Application lifecycle
-
-
-- (void)settingsChanged:(NSNotification *)notification {
-   
-   BOOL use = [[NSUserDefaults standardUserDefaults] boolForKey:@"use_orig_formula"];
-   [mainViewController set_use_orig_formula:use];
-   
-}
-- (void)initialize:(UIApplication *)application {
-   NSDictionary *reg = nil;
-   [reg setValue:[NSNumber numberWithBool:false] forKey:@"use_orig_formula"];
-   [[NSUserDefaults standardUserDefaults] registerDefaults:reg];
-   [application setStatusBarHidden:true];
+- (void)settingsChanged:(NSNotification *)notification
+{
+    BOOL use = [[NSUserDefaults standardUserDefaults] boolForKey:@"use_orig_formula"];
+    [mainViewController set_use_orig_formula:use];
 }
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
+- (void)initialize:(UIApplication *)application
+{
+    NSDictionary *reg = nil;
+    [reg setValue:[NSNumber numberWithBool:false] forKey:@"use_orig_formula"];
+    [reg setValue:[NSString stringWithString:APP_VERSION] forKey:@"app_version"];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:reg];
+    [application setStatusBarHidden:true];
+}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    DEBUG_DEVICE_INFO();
+
     // Override point for customization after application launch.
     // Add the main view controller's view to the window and display.
+    [self setSettingsMonitor:[[SettingsMonitor alloc] initWithDelegate:self]];
     [self.window addSubview:mainViewController.view];
     [self.window makeKeyAndVisible];
     [application setStatusBarHidden:true];
     [mainViewController set_use_orig_formula:[[NSUserDefaults standardUserDefaults] boolForKey:@"use_orig_formula"]];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(settingsChanged:) name:NSUserDefaultsDidChangeNotification object:nil];
     return YES;
 }
 
@@ -95,7 +97,7 @@
 
 
 - (void)dealloc {
-   [[NSNotificationCenter defaultCenter] removeObserver:self];
+    [settingsMonitor release];
     [mainViewController release];
     [window release];
     [super dealloc];

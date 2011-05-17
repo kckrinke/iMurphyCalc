@@ -11,20 +11,29 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		280E754D0DD40C5E005A515E /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* AboutView.xib */; };
-		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
-		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
 		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
 		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
 		289233B00DB2D0DB0083E9F9 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* AboutViewController.m */; };
+		BD1E0EDB132F2B6900D65AD7 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1E0EDA132F2B6900D65AD7 /* MainView.xib */; };
+		BD1E0EDD132F2B9A00D65AD7 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1E0EDC132F2B9A00D65AD7 /* AboutView.xib */; };
+		BD1E0EDF132F2BB900D65AD7 /* HelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1E0EDE132F2BB900D65AD7 /* HelpView.xib */; };
+		BD1E0EE1132F2BE400D65AD7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1E0EE0132F2BE400D65AD7 /* MainWindow.xib */; };
+		BD1E0EE3132F2DA600D65AD7 /* MainView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1E0EE2132F2DA600D65AD7 /* MainView-iPad.xib */; };
+		BD1E0EE5132F2DC700D65AD7 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1E0EE4132F2DC700D65AD7 /* MainWindow-iPad.xib */; };
+		BD1E0EE7132F2DE200D65AD7 /* HelpView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1E0EE6132F2DE200D65AD7 /* HelpView-iPad.xib */; };
+		BD1E0EE9132F2DF800D65AD7 /* AboutView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1E0EE8132F2DF800D65AD7 /* AboutView-iPad.xib */; };
+		BD1E0EEB132F4D2700D65AD7 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BD1E0EEA132F4D2700D65AD7 /* Default-Portrait~ipad.png */; };
+		BD3926D9132C4F9C0004CC90 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3926D8132C4F9C0004CC90 /* Config.m */; };
 		BD47E93213064AAB0030D576 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD47E93113064AAB0030D576 /* Settings.bundle */; };
 		BD4B81C112FBEB11008715CE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD4B81C012FBEB11008715CE /* icon.png */; };
 		BD6BF958131FFA4D0061BC98 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6BF957131FFA4D0061BC98 /* Default.png */; };
 		BD6BF95A131FFA5D0061BC98 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6BF959131FFA5D0061BC98 /* Default@2x.png */; };
+		BD85301F133441EA00ECA794 /* icon-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = BD85301E133441EA00ECA794 /* icon-57x57.png */; };
+		BD853021133441FD00ECA794 /* icon-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = BD853020133441FD00ECA794 /* icon-114x114.png */; };
+		BD8530231334420B00ECA794 /* icon-72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8530221334420B00ECA794 /* icon-72x72.png */; };
 		BDAF91E41317722100B765CE /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = BDAF91E31317722100B765CE /* info.png */; };
 		BDB03BBD12FCCF5B0060612A /* bg-640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03BBC12FCCF5B0060612A /* bg-640x960.png */; };
 		BDB03BBF12FCD1260060612A /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03BBE12FCD1260060612A /* help.png */; };
-		BDB03BC912FCD2220060612A /* HelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDB03BC812FCD2220060612A /* HelpView.xib */; };
 		BDB03BD512FCD2E60060612A /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB03BD412FCD2E60060612A /* HelpViewController.m */; };
 		BDB03BDE12FCD6F60060612A /* return.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03BDD12FCD6F60060612A /* return.png */; };
 		BDB03C6012FCE8E70060612A /* tips_urgency.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C5F12FCE8E70060612A /* tips_urgency.plist */; };
@@ -43,6 +52,7 @@
 		BDB03CA112FF766A0060612A /* therm-08.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB03C9912FF766A0060612A /* therm-08.png */; };
 		BDB03D0912FFC6570060612A /* therm_img.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB03D0812FFC6570060612A /* therm_img.plist */; };
 		BDC2D55B1301017E000B951F /* sodmath.c in Sources */ = {isa = PBXBuildFile; fileRef = BDC2D55A1301017E000B951F /* sodmath.c */; };
+		BDF49F0A13821FD700B14753 /* SettingsMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF49F0913821FD700B14753 /* SettingsMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,9 +61,6 @@
 		1D3623250D0F684500981E51 /* iMurphyCalcAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMurphyCalcAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* iMurphyCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMurphyCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		280E754A0DD40C5E005A515E /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutView.xib; path = Nibs/AboutView.xib; sourceTree = "<group>"; };
-		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainView.xib; path = Nibs/MainView.xib; sourceTree = "<group>"; };
-		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Nibs/MainWindow.xib; sourceTree = "<group>"; };
 		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Sources/MainViewController.h; sourceTree = "<group>"; };
 		289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Sources/MainViewController.m; sourceTree = "<group>"; };
@@ -62,14 +69,27 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* iMurphyCalc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMurphyCalc_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iMurphyCalc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iMurphyCalc-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BD1E0EDA132F2B6900D65AD7 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainView.xib; path = Nibs/MainView.xib; sourceTree = "<group>"; };
+		BD1E0EDC132F2B9A00D65AD7 /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutView.xib; path = Nibs/AboutView.xib; sourceTree = "<group>"; };
+		BD1E0EDE132F2BB900D65AD7 /* HelpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HelpView.xib; path = Nibs/HelpView.xib; sourceTree = "<group>"; };
+		BD1E0EE0132F2BE400D65AD7 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = Nibs/MainWindow.xib; sourceTree = "<group>"; };
+		BD1E0EE2132F2DA600D65AD7 /* MainView-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "MainView-iPad.xib"; path = "Nibs/MainView-iPad.xib"; sourceTree = "<group>"; };
+		BD1E0EE4132F2DC700D65AD7 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Nibs/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		BD1E0EE6132F2DE200D65AD7 /* HelpView-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "HelpView-iPad.xib"; path = "Nibs/HelpView-iPad.xib"; sourceTree = "<group>"; };
+		BD1E0EE8132F2DF800D65AD7 /* AboutView-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "AboutView-iPad.xib"; path = "Nibs/AboutView-iPad.xib"; sourceTree = "<group>"; };
+		BD1E0EEA132F4D2700D65AD7 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		BD3926D7132C4E790004CC90 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = Sources/Config.h; sourceTree = "<group>"; };
+		BD3926D8132C4F9C0004CC90 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Config.m; path = Sources/Config.m; sourceTree = "<group>"; };
 		BD47E93113064AAB0030D576 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		BD4B81C012FBEB11008715CE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		BD6BF957131FFA4D0061BC98 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BD6BF959131FFA5D0061BC98 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BD85301E133441EA00ECA794 /* icon-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57x57.png"; sourceTree = "<group>"; };
+		BD853020133441FD00ECA794 /* icon-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114x114.png"; sourceTree = "<group>"; };
+		BD8530221334420B00ECA794 /* icon-72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72x72.png"; sourceTree = "<group>"; };
 		BDAF91E31317722100B765CE /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = Artwork/info.png; sourceTree = "<group>"; };
 		BDB03BBC12FCCF5B0060612A /* bg-640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-640x960.png"; path = "Artwork/bg-640x960.png"; sourceTree = "<group>"; };
 		BDB03BBE12FCD1260060612A /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = Artwork/help.png; sourceTree = "<group>"; };
-		BDB03BC812FCD2220060612A /* HelpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HelpView.xib; path = Nibs/HelpView.xib; sourceTree = "<group>"; };
 		BDB03BD312FCD2E60060612A /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpViewController.h; path = Sources/HelpViewController.h; sourceTree = "<group>"; };
 		BDB03BD412FCD2E60060612A /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpViewController.m; path = Sources/HelpViewController.m; sourceTree = "<group>"; };
 		BDB03BDD12FCD6F60060612A /* return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = return.png; path = Artwork/return.png; sourceTree = "<group>"; };
@@ -90,6 +110,8 @@
 		BDB03D0812FFC6570060612A /* therm_img.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = therm_img.plist; path = Data/therm_img.plist; sourceTree = "<group>"; };
 		BDC2D5591301017E000B951F /* sodmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sodmath.h; path = Sources/sodmath.h; sourceTree = "<group>"; };
 		BDC2D55A1301017E000B951F /* sodmath.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sodmath.c; path = Sources/sodmath.c; sourceTree = "<group>"; };
+		BDF49F0813821FD700B14753 /* SettingsMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsMonitor.h; path = Sources/SettingsMonitor.h; sourceTree = "<group>"; };
+		BDF49F0913821FD700B14753 /* SettingsMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsMonitor.m; path = Sources/SettingsMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +206,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BD1E0ED7132F290000D65AD7 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				BD1E0EDC132F2B9A00D65AD7 /* AboutView.xib */,
+				BD1E0EDE132F2BB900D65AD7 /* HelpView.xib */,
+				BD1E0EDA132F2B6900D65AD7 /* MainView.xib */,
+				BD1E0EE0132F2BE400D65AD7 /* MainWindow.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		BD1E0ED8132F290C00D65AD7 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BD1E0EE8132F2DF800D65AD7 /* AboutView-iPad.xib */,
+				BD1E0EE6132F2DE200D65AD7 /* HelpView-iPad.xib */,
+				BD1E0EE2132F2DA600D65AD7 /* MainView-iPad.xib */,
+				BD1E0EE4132F2DC700D65AD7 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		BDA2D79D13024D7800D1B650 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,10 +244,8 @@
 		BDA2D79E13024DB500D1B650 /* nibs */ = {
 			isa = PBXGroup;
 			children = (
-				280E754A0DD40C5E005A515E /* AboutView.xib */,
-				BDB03BC812FCD2220060612A /* HelpView.xib */,
-				280E754B0DD40C5E005A515E /* MainView.xib */,
-				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+				BD1E0ED8132F290C00D65AD7 /* iPad */,
+				BD1E0ED7132F290000D65AD7 /* iPhone */,
 			);
 			name = nibs;
 			sourceTree = "<group>";
@@ -220,10 +262,13 @@
 		BDB03BDF12FCD7B80060612A /* artwork */ = {
 			isa = PBXGroup;
 			children = (
+				BDB03C9112FF765C0060612A /* therm */,
+				BD8530221334420B00ECA794 /* icon-72x72.png */,
+				BD853020133441FD00ECA794 /* icon-114x114.png */,
+				BD85301E133441EA00ECA794 /* icon-57x57.png */,
 				BD6BF959131FFA5D0061BC98 /* Default@2x.png */,
 				BD6BF957131FFA4D0061BC98 /* Default.png */,
 				BDAF91E31317722100B765CE /* info.png */,
-				BDB03C9112FF765C0060612A /* therm */,
 				BDB03BDD12FCD6F60060612A /* return.png */,
 				BDB03BBE12FCD1260060612A /* help.png */,
 				BDB03BBC12FCCF5B0060612A /* bg-640x960.png */,
@@ -235,6 +280,7 @@
 		BDB03C6112FCEC870060612A /* data */ = {
 			isa = PBXGroup;
 			children = (
+				BD1E0EEA132F4D2700D65AD7 /* Default-Portrait~ipad.png */,
 				BDB03C5F12FCE8E70060612A /* tips_urgency.plist */,
 				BDB03C6212FCEC9F0060612A /* tips_complexity.plist */,
 				BDB03C6412FCEC9F0060612A /* tips_importance.plist */,
@@ -264,8 +310,12 @@
 		BDC2D55513010147000B951F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BDF49F0813821FD700B14753 /* SettingsMonitor.h */,
+				BDF49F0913821FD700B14753 /* SettingsMonitor.m */,
 				BDC2D5591301017E000B951F /* sodmath.h */,
 				BDC2D55A1301017E000B951F /* sodmath.c */,
+				BD3926D7132C4E790004CC90 /* Config.h */,
+				BD3926D8132C4F9C0004CC90 /* Config.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -320,13 +370,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280E754D0DD40C5E005A515E /* AboutView.xib in Resources */,
-				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
-				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
 				BD4B81C112FBEB11008715CE /* icon.png in Resources */,
 				BDB03BBD12FCCF5B0060612A /* bg-640x960.png in Resources */,
 				BDB03BBF12FCD1260060612A /* help.png in Resources */,
-				BDB03BC912FCD2220060612A /* HelpView.xib in Resources */,
 				BDB03BDE12FCD6F60060612A /* return.png in Resources */,
 				BDB03C6012FCE8E70060612A /* tips_urgency.plist in Resources */,
 				BDB03C6612FCEC9F0060612A /* tips_complexity.plist in Resources */,
@@ -347,6 +393,18 @@
 				BDAF91E41317722100B765CE /* info.png in Resources */,
 				BD6BF958131FFA4D0061BC98 /* Default.png in Resources */,
 				BD6BF95A131FFA5D0061BC98 /* Default@2x.png in Resources */,
+				BD1E0EDB132F2B6900D65AD7 /* MainView.xib in Resources */,
+				BD1E0EDD132F2B9A00D65AD7 /* AboutView.xib in Resources */,
+				BD1E0EDF132F2BB900D65AD7 /* HelpView.xib in Resources */,
+				BD1E0EE1132F2BE400D65AD7 /* MainWindow.xib in Resources */,
+				BD1E0EE3132F2DA600D65AD7 /* MainView-iPad.xib in Resources */,
+				BD1E0EE5132F2DC700D65AD7 /* MainWindow-iPad.xib in Resources */,
+				BD1E0EE7132F2DE200D65AD7 /* HelpView-iPad.xib in Resources */,
+				BD1E0EE9132F2DF800D65AD7 /* AboutView-iPad.xib in Resources */,
+				BD1E0EEB132F4D2700D65AD7 /* Default-Portrait~ipad.png in Resources */,
+				BD85301F133441EA00ECA794 /* icon-57x57.png in Resources */,
+				BD853021133441FD00ECA794 /* icon-114x114.png in Resources */,
+				BD8530231334420B00ECA794 /* icon-72x72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +421,8 @@
 				289233B00DB2D0DB0083E9F9 /* AboutViewController.m in Sources */,
 				BDB03BD512FCD2E60060612A /* HelpViewController.m in Sources */,
 				BDC2D55B1301017E000B951F /* sodmath.c in Sources */,
+				BD3926D9132C4F9C0004CC90 /* Config.m in Sources */,
+				BDF49F0A13821FD700B14753 /* SettingsMonitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kevin Krinke (2L3CLV2BN4)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -381,7 +442,8 @@
 				INFOPLIST_FILE = "iMurphyCalc-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = iMurphyCalc;
-				TARGETED_DEVICE_FAMILY = 1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "42102781-36F1-4DF2-B227-921571CE808E";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -389,13 +451,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kevin Krinke (2L3CLV2BN4)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iMurphyCalc_Prefix.pch;
 				INFOPLIST_FILE = "iMurphyCalc-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = iMurphyCalc;
-				TARGETED_DEVICE_FAMILY = 1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "42102781-36F1-4DF2-B227-921571CE808E";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -413,6 +477,7 @@
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B3492EB9-0D45-476B-99B1-6122115B3C0F";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
@@ -421,13 +486,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kevin Krinke";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iMurphyCalc_Prefix.pch;
 				INFOPLIST_FILE = "iMurphyCalc-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = iMurphyCalc;
-				TARGETED_DEVICE_FAMILY = 1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C36C3BC5-0DAF-4C97-8458-57F8B2A4AA1E";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
@@ -444,6 +511,7 @@
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "519F6E87-84ED-4660-B8CB-BA8AEEBF2936";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
@@ -461,6 +529,7 @@
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "519F6E87-84ED-4660-B8CB-BA8AEEBF2936";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
